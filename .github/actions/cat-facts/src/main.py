@@ -3,7 +3,8 @@ import random
 import sys
 
 # Make an HTTP GET request to the cat-fact API
-cat_url = "https://cat-fact.herokuapp.com/facts"
+#cat_url = "https://cat-fact.herokuapp.com/facts"
+cat_url = "https://dog-facts-api.herokuapp.com/api/v1/resources/dogs/all"
 r = requests.get(cat_url)
 r_obj_list = r.json()
 
